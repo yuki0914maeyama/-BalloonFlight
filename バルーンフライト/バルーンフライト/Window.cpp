@@ -17,13 +17,3 @@ Window::~Window()
 	SAFE_RELEASE(g_pDirect3D);
 }
 
-
-int Window::WinMain(HINSTANCE hInstance, HINSTANCE hPrevInsta, LPSTR szStr, INT iCmdShow)
-{
-
-}
-
-LRESULT Window::WndProc(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp)
-{
-
-}

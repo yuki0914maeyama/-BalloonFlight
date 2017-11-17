@@ -35,13 +35,16 @@ public:
 		DWORD color;
 		FLOAT tu, tv;
 	};
+
 	//画像のID(自番号)を決めている
 	enum TEXTURE
 	{
+		BACKGROUND,
 		TEXMAX,
 	};
 
 	//Directx関係		構造体変数宣言
+	/*配列の要素数が0なのでエラーが起きていた*/
 	LPDIRECT3DTEXTURE9	  g_pTexture[TEXMAX];	//	画像の情報を入れておく為の配列
 	IDirect3DDevice9*	  g_pD3Device;		//	Direct3Dのデバイス
 	D3DPRESENT_PARAMETERS g_D3dPresentParameters;		//	パラメータ

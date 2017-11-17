@@ -17,13 +17,12 @@
 /*頂点バッファをここで作成している*/
 #define D3DFVF_CUSTOMVERTEX (D3DFVF_XYZRHW | D3DFVF_DIFFUSE | D3DFVF_TEX1)
 
-
 /*タイトル*/
 #define TITLE TEXT("バルーンフライト")
 
 /*画面の大きさ*/
-//#define WIDTH
-//#define HEIGHT
+#define WIDTH	1280
+#define HEIGHT	780
 
 class Window:public Game
 {
@@ -31,11 +30,6 @@ public:
 	Window();
 	~Window();
 
-	//main関数を作っている
-	int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInsta, LPSTR szStr, INT iCmdShow);
-
-	//メッセージループ
-	LRESULT CALLBACK WndProc(HWND hWnd, UINT msg, WPARAM wp, LPARAM lp);
 private:
 
 };
