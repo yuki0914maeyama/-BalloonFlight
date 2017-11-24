@@ -119,6 +119,8 @@
     <ClCompile Include="Dinput.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Graphics.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MNMainApp.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -126,6 +128,8 @@
     <ClInclude Include="Dinput.h" />
     <ClInclude Include="Game.h" />
     <ClInclude Include="Graphics.h" />
+    <ClInclude Include="Main.h" />
+    <ClInclude Include="MNMainApp.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
